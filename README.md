@@ -1,5 +1,7 @@
 # Analytics-Vidhya-Hackart-Hack
 Data Hackathon by Analytics Vidhya - "Hackart"
+
+
 libname mckinsey "\\VBOXSVR\Shared_folder_with_XP_for_SAS\Mckinsey datahack";                                                                                                                                                                                   
 proc import datafile="\\VBOXSVR\Shared_folder_with_XP_for_SAS\Mckinsey datahack\Train_psolI3n.csv"                                                                                                                                                              
 dbms=csv out=mckinsey.multilogit replace;                                                                                                                                                                                                                       
